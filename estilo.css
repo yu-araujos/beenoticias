@@ -56,6 +56,8 @@ ul{
   color: black;
 }
 
+/*edicao da pagina home*/
+
 /* colunas e cards*/
 .coluna1 {   
   width: 85%;
@@ -75,7 +77,7 @@ ul{
   margin-top: 20px;
 }
 
-/* mídia */
+/* midia */
 .midia video{
   display: block;
   justify-content: space-around;
@@ -100,4 +102,83 @@ h4{
 p{
   text-align: justify;
   font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+/* edicao da pagina sobre*/
+
+
+/*imagem*/
+.avatar{
+width: 25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 50px;
+border-radius: 50%;
+box-shadow: 0 4px 8px 0 #FF9E00, 0 6px 20px 0 #FFD051;
+}
+
+/*conteudo*/
+.coluna3 {   
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+}
+
+#sobre{
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* links*/
+#linkedin{
+  margin-top: 30px;
+  width: 74px;
+  display: block;
+  margin: auto;
+}
+
+#git{
+  margin-left: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.text1{
+  background-color: #282725;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+/*edicao da pagina contato*/
+
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/*edicao da pagina saiba mais*/
+
+
+#conteudo{
+  background-color: white;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.fontes{
+  color: #FFD051;
+  background-color: #282725 ;
+  width: 50%;
+  text-align: center;
 }
